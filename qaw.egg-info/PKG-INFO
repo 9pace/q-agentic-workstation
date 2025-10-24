@@ -1,0 +1,64 @@
+Metadata-Version: 2.4
+Name: qaw
+Version: 0.1.0
+Summary: Q Agentic Workstation - Parallel agent execution for hyperdeveloping
+Home-page: https://github.com/yourusername/q-agentic-workstation
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Tools
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.0.0
+Requires-Dist: psutil>=5.9.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Q Agentic Workstation
+
+An experimental framework for parallel, asynchronous agent-driven development using Amazon Q CLI.
+
+## Vision
+
+**Hyperdeveloping**: Instead of sequential, context-consuming interactions, spawn multiple specialized agents that work on subtasks in parallel. Review their work asynchronously at your convenience.
+
+## Key Concepts
+
+- **Parallel Agent Spawning**: Each subtask gets its own agent instance
+- **Async Execution**: Agents work independently without blocking your workflow
+- **Control Center**: Monitor all active agents, their status, and outputs
+- **Delegate Pattern**: Agents can spawn sub-agents for complex tasks
+- **Hooks Integration**: Automate agent lifecycle and response handling
+
+## Repository Structure
+
+```
+q-agentic-workstation/
+├── docs/              # Design documentation
+├── agents/            # Agent configurations
+├── hooks/             # Automation scripts and hooks
+├── control-center/    # Monitoring and control dashboard
+└── examples/          # Example workflows and use cases
+```
+
+## Getting Started
+
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for system design details.
+
+## Status
+
+🚧 **Under Active Development** 🚧

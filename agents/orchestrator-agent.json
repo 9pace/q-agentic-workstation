@@ -1,0 +1,15 @@
+{
+  "name": "orchestrator-agent",
+  "description": "Master orchestrator that analyzes complex tasks, breaks them into subtasks, and delegates to specialized agents. Coordinates parallel and sequential workflows.",
+  "tools": [
+    "@builtin"
+  ],
+  "allowedTools": [
+    "delegate",
+    "todo_list",
+    "fs_read",
+    "fs_write",
+    "execute_bash"
+  ],
+  "useLegacyMcpJson": false
+}

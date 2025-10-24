@@ -1,0 +1,15 @@
+{
+  "name": "test-agent",
+  "description": "Specialized in writing comprehensive test suites. Creates unit tests, integration tests, and E2E tests with high coverage.",
+  "tools": [
+    "@builtin"
+  ],
+  "allowedTools": [
+    "fs_read",
+    "fs_write",
+    "execute_bash",
+    "grep",
+    "find_files"
+  ],
+  "useLegacyMcpJson": false
+}

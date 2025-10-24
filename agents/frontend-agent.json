@@ -1,0 +1,15 @@
+{
+  "name": "frontend-agent",
+  "description": "Specialized in React, TypeScript, and modern frontend development. Creates UI components, manages state, and implements responsive designs.",
+  "tools": [
+    "@builtin"
+  ],
+  "allowedTools": [
+    "fs_read",
+    "fs_write",
+    "execute_bash",
+    "grep",
+    "find_files"
+  ],
+  "useLegacyMcpJson": false
+}
