@@ -1,0 +1,45 @@
+{
+  "project_root": "/Users/paceben/PERSONAL",
+  "tech_stack": {
+    "languages": [
+      "Python"
+    ],
+    "frameworks": [],
+    "package_managers": [],
+    "databases": [],
+    "tools": []
+  },
+  "patterns": {
+    "file_structure": {
+      "q-agentic-workstation": 23,
+      "truth-ticker-bot": 22,
+      "q-agentic-workstation/docs": 12,
+      "truth-ticker-bot/src": 12,
+      "q-agentic-workstation/qaw": 10,
+      "q-agentic-workstation/docs/archive": 9,
+      "q-agentic-workstation/tests": 6,
+      "q-agentic-workstation/qaw.egg-info": 6,
+      "q-agentic-workstation/agents": 5,
+      "truth-ticker-bot/tests": 3
+    },
+    "naming_conventions": [
+      "snake_case",
+      "camelCase",
+      "PascalCase"
+    ],
+    "common_patterns": [
+      "Async/Await",
+      "OOP/Classes",
+      "Functional Programming",
+      "Type Hints"
+    ],
+    "test_framework": null
+  },
+  "architecture": "Monolithic",
+  "constraints": [
+    "Maximum 50 lines per change",
+    "One feature at a time",
+    "No refactoring unless explicitly requested",
+    "Follow PEP 8 style guide"
+  ]
+}

@@ -29,26 +29,33 @@ q-agentic-workstation/
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for system design details.
 
-## ✨ Beautiful TUI Dashboard
+## 🤖 Manager-First Interface
 
-**NEW**: Launch the interactive control center!
+**NEW**: Natural language development with intelligent orchestration!
 
 ```bash
-qaw dashboard
+qaw app
 ```
 
-**Features**:
-- 📊 Live statistics with auto-refresh (every 2s)
-- 🤖 Interactive agent table with selection
-- 🔍 Detailed agent information panel
-- ⚡ Quick actions (refresh, cleanup, stop, kill, view logs)
-- ⌨️  Full keyboard shortcuts
-- 🎨 Professional UI with color coding
-- 🚀 Real-time monitoring without polling
+**Revolutionary Workflow**:
+1. 💬 **Describe your task** in plain English
+2. 🧠 **Manager breaks it down** into small, testable increments
+3. 🚀 **Agents execute** each step automatically
+4. 👀 **Watch live progress** in beautiful TUI
 
-See [DASHBOARD.md](DASHBOARD.md) for complete documentation.
+**Key Features**:
+- 💬 Integrated chat with Manager Agent
+- 📋 Live execution plan with status tracking
+- 🔄 Real-time agent monitoring
+- ✅ Automatic retry and verification
+- 🧠 Context-aware task decomposition
+- 🎨 Production-quality terminal UI
+
+See [docs/MANAGER_DASHBOARD.md](docs/MANAGER_DASHBOARD.md) for complete guide.
 
 ## Quick Start
+
+### The Manager-First Way (Recommended)
 
 ```bash
 # Install
@@ -60,16 +67,28 @@ cd my-project
 # Initialize workspace
 qaw init
 
-# Submit tasks
+# Launch the Manager-first interface
+qaw app
+
+# In the dashboard:
+# 1. Type: "Add user authentication with login and signup"
+# 2. Review the plan (Manager breaks it into increments)
+# 3. Click "Execute" and watch agents work!
+```
+
+### Manual Control (Advanced)
+
+```bash
+# Submit specific tasks to agents
 qaw submit "Create login component" --agent frontend-agent
 qaw submit "Add /api/auth endpoint" --agent backend-agent
 
-# Launch dashboard
-qaw dashboard
-
-# Or use CLI
+# Monitor with CLI
 qaw status
 qaw logs <agent-id>
+
+# Or chat interface
+qaw chat "What should I work on?"
 ```
 
 See [QUICKSTART.md](QUICKSTART.md) for more examples.
